@@ -1,0 +1,16 @@
+name = "DatadogAgentClient"
+uuid = "63fc710f-0bc7-4874-ab74-c4bc690e10f2"
+authors = ["Manuel Weiss <manuel@weiss.io> and contributors"]
+version = "1.0.0"
+
+[deps]
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+
+[compat]
+julia = "1.9.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
